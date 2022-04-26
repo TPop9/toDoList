@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>To do list : </h1>
       <AddNewTask setData={setData} />
       <ToDoList data={data} setData={setData} />
     </div>
