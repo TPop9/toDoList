@@ -20,8 +20,16 @@ function AddNewTask({ setData }) {
 
   return (
     <div>
-      <input className="input-field" placeholder="Enter new task" value={taskTitle} onChange={handleTextChange} type="text" />
-      <button className="input-button" onClick={handleButtonClick}>Add new task</button>
+      <input
+        className="input-field"
+        placeholder="Enter new task"
+        value={taskTitle}
+        onChange={handleTextChange}
+        type="text"
+      />
+      <button className="input-button" onClick={handleButtonClick}>
+        Add new task
+      </button>
     </div>
   );
 }
